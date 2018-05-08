@@ -14,5 +14,6 @@ This is Classic Memory Game playable on the modern browsers.
 * [animate.css](https://github.com/daneden/animate.css)
 * [vex](http://github.hubspot.com/vex/)
 
-###Screenshot
+### Screenshot
+![Mobile view](https://i.imgur.com/lqJeIfE.png)
 
