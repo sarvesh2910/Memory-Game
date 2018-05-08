@@ -89,10 +89,10 @@ h1 {
     text-align: left;
     margin-bottom: 10px;
     width: 660px;
-    display:  flex;
+    display: flex;
     flex-direction: row;
-    justify-content:  space-between;
-    align-items:  center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .score-panel .stars {
@@ -110,28 +110,31 @@ h1 {
     flex-direction: column;
     justify-content: flex-end;
 }
-.stars{
+
+.stars {
     text-align: center;
     padding: 5px;
 }
-.restart{
+
+.restart {
     text-align: center;
     cursor: pointer;
     padding: 5px;
 }
 
-
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
     .deck {
         width: 94%;
-        padding:  16px;
-        min-height:  100vw;
+        padding: 16px;
+        min-height: 100vw;
     }
-     .deck .card{
+
+    .deck .card {
         width: 20vw;
         height: 20vw;
     }
-     .score-panel{
-         width: 90%;
-     }
+
+    .score-panel {
+        width: 90%;
+    }
 }

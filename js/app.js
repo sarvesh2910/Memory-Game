@@ -141,9 +141,9 @@ $(document).ready(function () {
 
     //executed when two open cards do not match
     function cardsNotMatched() {
-        gameData.openCards.forEach(function(card){
+        gameData.openCards.forEach(function (card) {
             card.removeClass('animated bounceIn')
-            card.animateCss('shake animated', function(){
+            card.animateCss('shake animated', function () {
                 card.toggleClass("open show");
             });
         });
@@ -183,8 +183,8 @@ $(document).ready(function () {
 //take from https://github.com/daneden/animate.css/#usage
 // works like promises, used to block events until animations are over
 $.fn.extend({
-    animateCss: function(animationName, callback) {
-        var animationEnd = (function(el) {
+    animateCss: function (animationName, callback) {
+        var animationEnd = (function (el) {
             var animations = {
                 animation: 'animationend',
                 OAnimation: 'oAnimationEnd',
@@ -199,7 +199,7 @@ $.fn.extend({
             }
         })(document.createElement('div'));
 
-        this.addClass('animated ' + animationName).one(animationEnd, function() {
+        this.addClass('animated ' + animationName).one(animationEnd, function () {
             $(this).removeClass('animated ' + animationName);
 
             if (typeof callback === 'function') callback();
