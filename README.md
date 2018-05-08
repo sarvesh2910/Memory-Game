@@ -1,6 +1,7 @@
 # Memory Game
 
 This is Classic Memory Game playable on the modern browsers.
+[Play it here](https://sarvesh2910.github.io/Memory-Game/)
 
 ### How to play
 
